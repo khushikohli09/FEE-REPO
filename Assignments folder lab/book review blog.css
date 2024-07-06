@@ -1,0 +1,101 @@
+*{
+    box-sizing:border-box
+}
+body{
+    margin: 0px;
+    background-color: #f6f6f6;
+    font-family: 'lora',serif;
+}
+header{
+    background-color: blue;
+    height: 66px;;
+}
+header *{
+    color:white;
+
+}
+header .logo{
+    float: left;
+    margin-left: 2em;
+}
+header ul {
+    float: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    max-height: 0px;
+}
+header .logo-text{
+    margin: 9px;
+    font-family: 'candal',serif;
+}
+header .logo-text span{
+    color: red;
+}
+header ul li{
+    float: left;
+    display: block;
+    font-size:1.1em;
+    padding: 21px;
+}
+header ul li:hover{
+    background-color: #008489;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 750px){
+    header{
+        position: relative;
+    }
+    header ul{
+        width: 100%;
+        background-color: #008489;
+    }
+    header ul li{
+        width: 100%;
+    }
+    img p .parent .row .center section{
+        width: 100%;
+    }
+}
+h2{
+    color: pink;
+}
+img{
+    border: 5px solid black;
+    margin: 1px;
+    padding: 1px;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    float:right;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 30px;
+}
+.parent{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    float: left;
+}
+section{
+    display: block;
+}
+.center{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
