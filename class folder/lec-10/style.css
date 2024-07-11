@@ -1,0 +1,30 @@
+/*universal selector*/
+*{
+    font-size: 30px;
+    /*padding: 0px;
+    margin: 0px;*/
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Id selector*/
+#states{
+    text-decoration: line-through;
+    color: red;
+}
+/*Class selector*/
+.a{
+    color: pink;
+    background-color: violet;
+}
+/*Element selector*/
+p{
+    background-color: tomato;
+}
+/*attributes selector*/
+input[type="password"]{
+    background-color:green;
+    color: whitesmoke;
+}
+input[type="text"]{
+    background-color: yellow;
+    color: red;
+}
