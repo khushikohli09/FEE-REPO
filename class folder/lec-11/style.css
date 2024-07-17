@@ -1,0 +1,17 @@
+/*Descandant selector*/
+section li a{
+    color: red;
+    font-size: 20px;
+}
+/*child selector*/
+section > h3{
+    border-top: 2px solid red;
+}
+/*Adjacent comibnators(child)*/
+h3+p{
+    background-color: yellow;
+}
+/*Siblings combinators*/
+ul ~ li{
+    color: blue;
+}
